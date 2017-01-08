@@ -12,7 +12,7 @@ class CartSummary {
 		      return subtotal += (item.quantity * item.price);
 		    }, 0);
 		  }
-		return 1
+		return 0
 	}
 
 	getTax(state, done) {
